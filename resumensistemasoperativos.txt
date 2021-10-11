@@ -1,1 +1,7 @@
-Resumen
+Resumen Sistemas operativos
+- Por Samuel Alvarez
+
+¿Qué es un sistema operativo?
+Un sistema operativo puede entenderse como una colección de programas que se encargan de ejecutar aplicaciones de software y actuan como interfaz entre hardware y software.
+Son desarrollados con el propósito de permitirle al usuatio utilizar software de manera cómoda e intuitiva.
+
