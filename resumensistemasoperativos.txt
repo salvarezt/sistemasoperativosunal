@@ -5,3 +5,11 @@ Resumen Sistemas operativos
 Un sistema operativo puede entenderse como una colección de programas que se encargan de ejecutar aplicaciones de software y actuan como interfaz entre hardware y software.
 Son desarrollados con el propósito de permitirle al usuatio utilizar software de manera cómoda e intuitiva.
 
+Los sistemas operativos actuales son multitarea (permiten utilizar dos o más aplicaciones a la vez) y multiusuario (varias pantallas pueden conectarse a una computadora y utilizar los recursos de esta). Sus funciones más importantes son la gestión de hardware, facilitar el uso para el usuario y generar la interfaz gráfica.
+
+Los sistemas operativos más importantes a lo largo de la historia fueron:
+UNIX (1969), LisaOS (1983), MacOS (1984), Linux (1991), Windows 95 (1995), Windows 7 (2009), iOS (2009) y Android.
+
+Algunos momentos históricos que vale la pena destacar son:
+Android fue el segundo sistema operativo pensado para moviles (después de iOS) basado en Linux. Linux a su vez tiene la estructura base de UNIX con muchas mejoras.
+Windows recibió bastantes críticas de plagio debido a que LisaOS tuvo un diseño bastante parecido a sus interfaces y la interfaz de Windows95 fue similar a la de LisaOS. El Windows 7 es hasta el momento el sistema operativo más estable que hay de Windows debido a que fue el que recibió más actualizaciones luego de su lanzamiento.
