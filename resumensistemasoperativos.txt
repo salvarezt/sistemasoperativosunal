@@ -12,4 +12,5 @@ UNIX (1969), LisaOS (1983), MacOS (1984), Linux (1991), Windows 95 (1995), Windo
 
 Algunos momentos históricos que vale la pena destacar son:
 Android fue el segundo sistema operativo pensado para moviles (después de iOS) basado en Linux. Linux a su vez tiene la estructura base de UNIX con muchas mejoras.
-Windows recibió bastantes críticas de plagio debido a que LisaOS tuvo un diseño bastante parecido a sus interfaces y la interfaz de Windows95 fue similar a la de LisaOS. El Windows 7 es hasta el momento el sistema operativo más estable que hay de Windows debido a que fue el que recibió más actualizaciones luego de su lanzamiento.
+Windows recibió bastantes críticas de plagio debido a que LisaOS tuvo un diseño bastante parecido a sus interfaces y la interfaz de Windows95 fue similar a la de LisaOS.
+El Windows 7 es hasta el momento el sistema operativo más estable que hay de Windows debido a que fue el que recibió más actualizaciones luego de su lanzamiento.
