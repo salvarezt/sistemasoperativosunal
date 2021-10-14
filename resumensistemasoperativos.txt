@@ -5,7 +5,9 @@ Resumen Sistemas operativos
 Un sistema operativo puede entenderse como una colección de programas que se encargan de ejecutar aplicaciones de software y actuan como interfaz entre hardware y software.
 Son desarrollados con el propósito de permitirle al usuatio utilizar software de manera cómoda e intuitiva.
 
-Los sistemas operativos actuales son multitarea (permiten utilizar dos o más aplicaciones a la vez) y multiusuario (varias pantallas pueden conectarse a una computadora y utilizar los recursos de esta). Sus funciones más importantes son la gestión de hardware, facilitar el uso para el usuario y generar la interfaz gráfica.
+Los sistemas operativos actuales son multitarea (permiten utilizar dos o más aplicaciones a la vez)
+y multiusuario (varias pantallas pueden conectarse a una computadora y utilizar los recursos de esta).
+Sus funciones más importantes son la gestión de hardware, facilitar el uso para el usuario y generar la interfaz gráfica.
 
 Los sistemas operativos más importantes a lo largo de la historia fueron:
 UNIX (1969), LisaOS (1983), MacOS (1984), Linux (1991), Windows 95 (1995), Windows 7 (2009), iOS (2009) y Android.
