@@ -1,0 +1,10 @@
+os.umask(mask)
+Establece la umask numérica actual y retorna la umask anterior.
+"mask" es otro valor número en este código, ejecutando
+-- os.umask("cualquier numero")
+ya sea en IDLE o en la PowerShell de Windows, el único resultado que regresa es
+el número 0... Honestamente no entiendo que es lo que hace internamente, pero se supone que está
+estableciendo el valor de "denegaciones", no el valor de "permisos" del usuario.
+
+O pues eso fue lo que entendí de aquí:
+https://www.it-swarm-es.com/es/python/como-usar-os.umask-en-python/1067498163/
