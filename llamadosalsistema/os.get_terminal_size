@@ -1,0 +1,7 @@
+os.get_terminal_size(fd=STDOUT_FILENO)
+Devuelve el tamaño de la terminal en columnas y lineas...
+Si es usado en IDLE o en cualquier entorno que no esté conectado a una terminal, regresa error.
+
+Dato curioso:
+El tamaño de terminal más pequeño que hay es 14 columnas, 1 línea.
+El tamaño de terminal más grande supongo que depende del tamaño de la pantalla.
