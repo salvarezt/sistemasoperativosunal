@@ -1,0 +1,17 @@
+os.fdopen(file, mode, buffer)
+Abre un objeto de tipo archivo para analizar en el descriptor de archivos (file descriptor, de ahí el fd de fdopen).
+El primer parámetro es un objeto de tipo archivo.
+  Ejemplo:
+    file = os.open("Texto.txt", "r")  # Archivo abierto para lectura a nivel del SO
+Aquí "file" guarda un objeto de tipo archivo.
+El segundo parámetro es el modo en el que se abrirá el archivo, puede ser solo lectura, escritura, etc.
+El tercer parámetro es... Una forma de restringir el archivo, no entiendo del todo cómo funciona.
+
+NOTA: No confundir open() con os.open(), el primero crea objetos de tipo archivo, el segundo recibe un nombre para archivos
+y regresa un descriptor de archivos. Util para trabajar en lenguaje de bajo nivel.
+Un descriptor de archivos es un pequeño entero que identifica el archivo abierto en una tabla de
+archivos abiertos guardados por el kernel en cada proceso.
+
+Mas info mucho más detallada aquí:
+https://stackoverflow.com/questions/15039528/what-is-the-difference-between-os-open-and-os-fdopen-in-python/15039662
+https://www.tutorialspoint.com/python/os_fdopen.htm
