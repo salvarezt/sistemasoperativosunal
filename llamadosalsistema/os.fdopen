@@ -7,6 +7,11 @@ Aquí "file" guarda un objeto de tipo archivo.
 El segundo parámetro es el modo en el que se abrirá el archivo, puede ser solo lectura, escritura, etc.
 El tercer parámetro es... Una forma de restringir el archivo, no entiendo del todo cómo funciona.
 
+En esencia la línea de código:
+  file = os.fdopen(os.open(filename, os.O_RDONLY))
+Dará el mismo resultado que la línea de código:
+  file = open(filename, 'r')
+
 NOTA: No confundir open() con os.open(), el primero crea objetos de tipo archivo, el segundo recibe un nombre para archivos
 y regresa un descriptor de archivos. Util para trabajar en lenguaje de bajo nivel.
 Un descriptor de archivos es un pequeño entero que identifica el archivo abierto en una tabla de
