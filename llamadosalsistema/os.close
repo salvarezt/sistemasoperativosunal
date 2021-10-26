@@ -1,0 +1,2 @@
+os.close(archivo)
+Cierra un descriptor de archivo previamente abierto con os.open() u os.fdopen().
