@@ -1,0 +1,7 @@
+os.getlogin()
+Regresa el usuario con el que se está controlando la terminal.
+
+Por ejemplo, al ejecutarlo en la PowerShell regresó:
+  'ansis'
+
+Indicando que 'ansis' es el usuario con el que se inició sesión en el dispositivo.
