@@ -1,0 +1,8 @@
+os.cpu_count()
+Regresa la cantidad de CPU's del sistema, o None si no está determinado.
+
+ADVERTENCIA: Este número NO es el numero de CPU's usados en el proceso actual.
+La cantidad de CPU's usables se puede obtener con
+  len(os.sched_getaffinity(0))
+
+Cabe destacar que la anterior línea de código no será útil en Windows.
