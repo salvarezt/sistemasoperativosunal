@@ -1,0 +1,7 @@
+os.getcwd()
+Regresa el directorio actual.
+
+Ejemplo: Al utilizarlo en la PowerShell, regresó
+  "C:\\users\\ansis"
+
+Esto indica que el directorio en el que se estaba trabajando era ese.
