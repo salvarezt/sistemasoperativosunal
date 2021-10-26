@@ -1,0 +1,5 @@
+os.read(archivo, num)
+Lee un máximo de num bytes en el archivo.
+
+El primer parámetro es el archivo del cuál se leerá.
+El segundo parámetro es la cantidad de bytes máximos a leer.
