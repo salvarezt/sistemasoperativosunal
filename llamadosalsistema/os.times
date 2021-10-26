@@ -1,0 +1,11 @@
+os.times()
+Regresa los tiempos de los procesos globales actuales. La instancia devuelta
+tiene cinco valores:
+
+user - Tiempo de usuario
+system - Tiempo del sistema
+children_user - Tiempo de usuario para todos los procesos "hijos".
+children_system - Tiempo del sistema para todos los procesos "hijos".
+elapsed - Tiempo real elapsado desde un punto fijo del pasado.
+
+Dato curioso: En Windows solo los primeros dos tiempos se conocen, todos los demás son 0.
