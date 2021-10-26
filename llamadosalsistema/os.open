@@ -1,2 +1,24 @@
-os.open(file, mode(s))
-Abre un archivo para ser analizado en el file dedsad
+os.open(archivo, permisos, ?modo)
+Abre un archivo para ser analizado en el descriptor de archivos.
+
+El primer parámetro es el nombre del archivo a ser abierto.
+El segundo parámetro indica los permisos con los que se abrirá el archivo, es un dato numérico (normalmente
+octal) con el cual se especifíca la modalidad. Entre los posibles permisos se encuentran:
+
+os.O_RDONLY − Solo lectura
+os.O_WRONLY − Solo escritura
+os.O_RDWR − Lectura y Escritura
+os.O_NONBLOCK − no bloquear al abrir
+os.O_APPEND − Añadir al final del archivo cada vez que se escriba algo
+os.O_CREAT − Crea el archivo si este no existe
+os.O_TRUNC − Truncar el archivo a tamaño 0 (Se puede pensar en Truncar como cortar, esto se explora a fondo
+  en os.truncate()).
+os.O_EXCL − Error si el archivo existe.
+
+Estos permisos se pueden combinar con el operador binario OR |, por ejemplo:
+  os.open("foo.txt", os.O_RDONLY | os.O_CREAT)
+
+Esta línea de código abriría el archivo únicamente para lectura, y crearía el archivo si este no existe.
+
+Mas permisos posibles se pueden encontrar en:
+https://www.tutorialspoint.com/python/os_open.htm
