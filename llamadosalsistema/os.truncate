@@ -1,0 +1,8 @@
+os.truncate(archivo, longitud)
+Recorta un archivo hasta que tenga máximo la cantidad de bytes dada por el segundo parámetro.
+
+El primer parámetro es el archivo a truncar (recordar).
+El segundo parámetro es la cantidad de bytes que el archivo recortado tendrá máximo.
+
+Ejemplo:
+https://www.geeksforgeeks.org/python-os-truncate-method/
