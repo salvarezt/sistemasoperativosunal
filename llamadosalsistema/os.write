@@ -1,0 +1,7 @@
+os.write(archivo, string)
+Escribe el string en el descriptor de archivo. Devuelve la cantidad de bytes escritos.
+Utilizando este comando se puede escribir en un descriptor de archivo abierto previamente
+con os.open() u os.fdopen().
+
+El primer parámetro es el descriptor de archivo en el cuál se escribirá.
+El segundo parámetro es el string a escribir.
