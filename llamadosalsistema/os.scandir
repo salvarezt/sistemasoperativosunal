@@ -1,0 +1,9 @@
+os.scandir(path='.')
+Regresa un iterador cuyos elementos son los archivos/directorios encontrados en path.
+
+Ejemplo:
+  for i in os.scandir("C:\\users\\usuario"):
+    print(i.name)
+
+El código de arriba devolverá el nombre de todos los archivos/directorios encontrados
+en C:\\users\\usuario.
