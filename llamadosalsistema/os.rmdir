@@ -1,0 +1,7 @@
+os.rmdir(directorio)
+Permite usar el comando de la terminar rmdir para remover un directorio.
+
+Se pueden dar direcciones de directorio, como por ejemplo:
+  os.rmdir("carpeta/prueba")
+
+Removería la carpeta "prueba" de la carpeta "carpeta".
