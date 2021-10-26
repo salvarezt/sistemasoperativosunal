@@ -11,8 +11,8 @@ os.O_RDWR − Lectura y Escritura
 os.O_NONBLOCK − no bloquear al abrir
 os.O_APPEND − Añadir al final del archivo cada vez que se escriba algo
 os.O_CREAT − Crea el archivo si este no existe
-os.O_TRUNC − Truncar el archivo a tamaño 0 (Se puede pensar en Truncar como cortar, esto se explora a fondo
-  en os.truncate()).
+os.O_TRUNC − Trunca el archivo a tamaño 0, efectivamente vaciándolo. (Se puede pensar en Truncar como
+  cortar, esto se explora a fondo en os.truncate()).
 os.O_EXCL − Error si el archivo existe.
 
 Estos permisos se pueden combinar con el operador binario OR |, por ejemplo:
