@@ -1,0 +1,6 @@
+os.pipe()
+Crea un tubo y regresa una pareja de descriptores de archivos,
+el primero para leer y el segundo para escribir.
+
+Ejemplo:
+https://www.tutorialspoint.com/python/os_pipe.htm
