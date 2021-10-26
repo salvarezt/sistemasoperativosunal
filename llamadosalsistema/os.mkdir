@@ -1,0 +1,10 @@
+os.mkdir(directorio)
+Permite usar el comando "mkdir" de la terminal para crear directorios (carpetas)
+en la dirección actual.
+
+Ejemplo:
+
+En la dirección C:/users/usuario se ejecuta el código:
+  os.mkdir("test")
+
+Este creará una carpeta llamada "test".
