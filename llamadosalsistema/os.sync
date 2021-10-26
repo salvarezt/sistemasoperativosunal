@@ -1,0 +1,10 @@
+os.sync()
+Fuerza la escritura de todo al disco (usado cuando se trabaja con archivos abiertos
+ya sea con os.open() u os.fdopen()).
+
+Cuando se realiza un proceso como escribir en un archivo (os.write(file, string)),
+este proceso estará disponible en el buffer del programa, pero es posible que no se haya
+escrito directamente en el disco aún, de hecho se escribirá en el disco cuando el programa
+sea cerrado o el descriptor de archivo sea cerrado.
+
+os.sync() por esto fuerza la escritura en el disco.
