@@ -34,7 +34,7 @@ class Server:
 
         pedido = cliente.recv(100).decode('utf-8').split(' ')
         if pedido[0] == 'SAVE':
-            pass
+            self.pedidoGuardar(cliente, pedido)
         if pedido[0] == 'GET':
             self.pedidoRecibir(cliente, pedido)
         if pedido[0] == 'DEL':
@@ -45,6 +45,15 @@ class Server:
 
     #def pedidoGuardar(self, cliente, pedido):
         
+    def pedidoGuardar(self, cliente, pedido):
+        print(f'Guardaremos el archivo {pedido[1]}')
+        f = open(f'carpetaServer/{pedido[1]}', 'w')
+        p = cliente.recv(1024)
+        f.write(p.decode('utf-8'))
+        f.close()
+        mensaje = b'Se ha guardado el archivo correctamente'
+        cliente.send(mensaje)
+        print('Se ha guardado el archivo correctamente')
     
     def pedidoRecibir(self, cliente, pedido):
         try:

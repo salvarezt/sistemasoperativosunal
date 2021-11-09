@@ -31,6 +31,7 @@ class Cliente:
 
             mensajeRecibido = self.sock.recv(50) # Queremos saber que no hubo problemas para recibir el mensaje
             print(mensajeRecibido.decode('utf-8'))
+            f.close()
         except os.error:
             print('Hubo un error al enviar el archivo ' + os.error)
             return 1
@@ -78,7 +79,8 @@ class Cliente:
 
 cliente = Cliente()
 cliente.conectar(host, port)
-cliente.recibirArchivo('texto.txt')
-#cliente.eliminarArchivo('texto.txt')
+cliente.guardarArchivo('archivo.txt')
+cliente.recibirArchivo('pedido.txt')
+cliente.eliminarArchivo('borrado.txt')
 cliente.desconectar()
 
