@@ -1,0 +1,2 @@
+Este archivo sera pedido por el cliente y enviado desde el servidor
+hacia el mismo, para que el proceda a guardarlo en su carpeta.
