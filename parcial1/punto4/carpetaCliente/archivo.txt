@@ -1,1 +1,2 @@
-Me gusta archivar archivos
+Este archivo sera enviado al servidor
+para luego ser guardado en este.
