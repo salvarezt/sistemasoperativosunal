@@ -1,1 +1,9 @@
-Link del archivo en IPFS:
+Hash del archivo en IPFS:
+QmafjuQ5qdDWoTYm1qKBqkcvqPLq72Xw27218hPuNxoTBy
+
+Recuerden que pueden obtener este archivo abriendo la consola en la carpeta del ejecutable
+y digitando:
+ipfs get QmafjuQ5qdDWoTYm1qKBqkcvqPLq72Xw27218hPuNxoTBy
+
+O en el navegador, con el link:
+https://ipfs.io/ipfs/QmafjuQ5qdDWoTYm1qKBqkcvqPLq72Xw27218hPuNxoTBy
